@@ -38,7 +38,8 @@
 
 ;;;###autoload
 (define-minor-mode evil-hide-cursor-mode
-  "the cursor hiding in evil buffer" nil "" nil
+  "The cursor hiding in evil buffer."
+  :lighter " Ehc"
   (when evil-hide-cursor-mode
     (setq cursor-type nil)))
 
